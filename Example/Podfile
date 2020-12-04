@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MTABaseViewKit_Example' do
+  pod 'MTABaseViewKit', :path => '../'
+
+  target 'MTABaseViewKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
