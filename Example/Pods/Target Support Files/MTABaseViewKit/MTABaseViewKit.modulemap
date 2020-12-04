@@ -1,0 +1,6 @@
+framework module MTABaseViewKit {
+  umbrella header "MTABaseViewKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

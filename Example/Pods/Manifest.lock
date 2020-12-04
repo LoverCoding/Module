@@ -1,0 +1,24 @@
+PODS:
+  - CTMediator (44)
+  - MTABaseViewKit (1.0):
+    - CTMediator (~> 44)
+
+DEPENDENCIES:
+  - CTMediator
+  - MTABaseViewKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  MTABaseViewKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
+  MTABaseViewKit: 0d0bdadcc93a6fd0cf855d0080dd2c13c0e0a47b
+
+PODFILE CHECKSUM: 6e655d94b13c0754cdbd2084a473c1c5dfbbfc1e
+
+COCOAPODS: 1.9.3

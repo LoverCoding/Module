@@ -1,0 +1,27 @@
+{
+  "name": "MTABaseViewKit",
+  "version": "1.0",
+  "summary": "A short description of MTABaseViewKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LoverCoder/MTABaseViewKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bobzzz": ""
+  },
+  "source": {
+    "git": "https://github.com/LoverCoding/Module.git",
+    "tag": "1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MTABaseViewKit/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+      "~>44"
+    ]
+  }
+}
