@@ -8,6 +8,6 @@ target 'MTABaseViewKit_Example' do
   target 'MTABaseViewKit_Tests' do
     inherit! :search_paths
 
-    
+    pod 'CTMediator'
   end
 end
