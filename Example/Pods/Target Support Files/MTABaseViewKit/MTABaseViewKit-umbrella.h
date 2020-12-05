@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "CTMediator+MTABaseVIew.h"
-#import "MTABaseView.h"
-#import "Target_MTABaseView.h"
 
 FOUNDATION_EXPORT double MTABaseViewKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char MTABaseViewKitVersionString[];

@@ -4,7 +4,8 @@ PODS:
     - CTMediator (~> 44)
 
 DEPENDENCIES:
-  - MTABaseViewKit (from `../`)
+  - CTMediator
+  - MTABaseViewKit (from `../MTABaseViewKit.podspec`)
 
 SPEC REPOS:
   trunk:
@@ -12,12 +13,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   MTABaseViewKit:
-    :path: "../"
+    :podspec: "../MTABaseViewKit.podspec"
 
 SPEC CHECKSUMS:
   CTMediator: 933dba523da87bf875e4a7e8728945fbc512f1d2
-  MTABaseViewKit: 0d0bdadcc93a6fd0cf855d0080dd2c13c0e0a47b
+  MTABaseViewKit: 0ea0e237a35aaa4adbd35f996ec0801e27bbd567
 
-PODFILE CHECKSUM: dc69512ffaa74ee8c9095bf17db23f158edccc51
+PODFILE CHECKSUM: fe71a737c71cb0b77fd36f14cd6e0097f0ab4b32
 
 COCOAPODS: 1.9.3

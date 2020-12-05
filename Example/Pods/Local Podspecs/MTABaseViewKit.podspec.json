@@ -19,9 +19,13 @@
     "ios": "9.0"
   },
   "source_files": "MTABaseViewKit/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
   "dependencies": {
     "CTMediator": [
-      "~>44"
+      "~> 44"
     ]
   }
 }
