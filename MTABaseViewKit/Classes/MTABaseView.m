@@ -2,7 +2,7 @@
 //  MTABaseView.m
 //  Module_TA
 //
-//  Created by 张珍珍 on 2020/12/4.
+//  Created by 张珍珍 on 2020/12/5.
 //  Copyright © 2020 MTA. All rights reserved.
 //
 
@@ -16,11 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
-    self.navigationItem.title = self.title;
-    self.view.backgroundColor = [UIColor redColor];
+    
+    self.navigationItem.title = self.titleName;
+    self.view.backgroundColor = self.bgColor;
 }
+
 
 /*
 #pragma mark - Navigation

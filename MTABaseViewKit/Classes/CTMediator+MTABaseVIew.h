@@ -1,20 +1,20 @@
 //
-//  CTMediator+MTABaseVIew.h
+//  CTMediator+MTABaseView.h
 //  Module_TA
 //
-//  Created by 张珍珍 on 2020/12/4.
+//  Created by 张珍珍 on 2020/12/5.
 //  Copyright © 2020 MTA. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import <CTMediator/CTMediator.h>
 #import <UIKit/UIKit.h>
+#import <CTMediator/CTMediator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CTMediator(MTABaseVIew)
+@interface CTMediator(MTABaseView)
 
--(UIViewController * )baseViewTitle:(NSString *)title;
+-(UIViewController *)baseViewTitle:(NSString *)title BGCOLOR:(UIColor *)bgColor;
 
 @end
 

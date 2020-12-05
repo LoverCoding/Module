@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTABaseViewKit'
-  s.version          = '1.2'
+  s.version          = '1.4'
   s.summary          = 'A short description of MTABaseViewKit.'
 
 # This description is used to generate tags and improve search results.
